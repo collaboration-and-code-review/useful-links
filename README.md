@@ -1,7 +1,5 @@
 # Useful Links
 
-## Useful Resources
-
 GitHub and Bitbucket
 * [GitHub](https://github.com)
 * [Bitbucket](https://bitbucket.org)
