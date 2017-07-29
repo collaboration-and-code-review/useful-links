@@ -1,4 +1,4 @@
-# Useful Links
+# Useful Resources
 
 GitHub and Bitbucket
 * [GitHub](https://github.com)
@@ -50,6 +50,61 @@ Collaborative Development Models and Permission Levels
 * [Permission Levels for an Organization](https://help.github.com/articles/permission-levels-for-an-organization)
 * [Repository Permission Levels for an Organization](https://help.github.com/articles/repository-permission-levels-for-an-organization)
 * [Permission Levels for a User Account Repository](https://help.github.com/articles/permission-levels-for-a-user-account-repository)
+
+## Commands
+
+Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
+
+```bash
+$ git clone <repo-url>
+```
+
+Example: clone (or download) an organizational repo (organizational repo will be "origin")
+
+```bash
+$ git clone https://github.com/<organization-name>/<repo-name>
+```
+
+Example: clone (or download) a user account repo (repo needs to have already been forked to user account, forked repo will be "origin")
+
+```bash
+$ git clone https://github.com/<user-name>/<repo-name>
+```
+
+Change directory into the folder of the repo you cloned. Folder name will be the repo name.
+
+```bash
+$ cd <repo-name>
+```
+
+Verify which branch you are checked out on (important if more than one branch); you will be checkout out on the default branch initially (in this case master, which is the norm)
+
+```bash
+$ git branch
+```
+
+Create and checkout (switch) to a feature branch, branching off of the branch you intend your changes to be merged into (note how the local files switch to the files of the branch you are checked out on, exactly the same at first, but if you make a change in a branch and then switch back and forth between branches, you can see the difference)
+
+```bash
+$ git checkout -b <branch-name>
+```
+
+Make your change, then add, commit, create a message (if you don't use -m, a Vim editor will open and you will need to know how to exit)
+
+```bash
+$ git add .
+$ git commit -m "Your note"
+```
+
+Push the new branch to GitHub to your origin (by default, the origin is the repo you cloned from that you have write permission to); This can also be used to push additional commits
+
+```bash
+$ git push origin <branch-name>
+```
+
+There will now be a new branch in the repo that is your origin. The branch will not be affecting anything else. If you never did anything else with it, it would just exist there.
+
+
 
 <!--
 Gitflow 
