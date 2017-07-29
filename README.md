@@ -51,6 +51,18 @@ Collaborative Development Models and Permission Levels
 * [Repository Permission Levels for an Organization](https://help.github.com/articles/repository-permission-levels-for-an-organization)
 * [Permission Levels for a User Account Repository](https://help.github.com/articles/permission-levels-for-a-user-account-repository)
 
+Pull Request Branches Created from a Fork
+* [Allowing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork)
+* [Committing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork)
+
+Advanced Collaborative Development Workflow Examples
+* Git Flow
+* [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model) (more advanced)
+* [A Successful Git Branching Model Considered Harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful)
+* [SemVer](http://semver.org) (subtopic)
+
+* [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
+
 ## Commands
 
 Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
@@ -117,18 +129,6 @@ https://help.github.com/articles/github-flow
 Section: releases, working with tags
 https://help.github.com/categories/releases
 -->
-
-Pull Request Branches Created from a Fork
-* [Allowing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork)
-* [Committing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork)
-
-Advanced Collaborative Development Workflow Examples
-* Git Flow
-* [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model) (more advanced)
-* [A Successful Git Branching Model Considered Harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful)
-* [SemVer](http://semver.org) (subtopic)
-
-* [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
 
 <!--
 * [Using Keyboard Shortcuts](https://help.github.com/articles/using-keyboard-shortcuts)
