@@ -116,6 +116,31 @@ $ git push origin <branch-name>
 
 There will now be a new branch in the repo that is your origin. The branch will not be affecting anything else. If you never did anything else with it, it would just exist there.
 
+### Tidy Up
+
+When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
+
+* Close pull request
+* Revert pull request (hopefully not needed)
+* Delete local and remote (in browser) feature branch
+
+Delete a branch
+
+```bash
+$ git branch -d  <branch-name>
+```
+
+Force delete branch
+
+```bash
+$ git branch -D  <branch-name>
+```
+
+Delete remote branch
+
+```bash
+$ git push <remote-name> :<branch-name>
+```
 
 
 <!--
