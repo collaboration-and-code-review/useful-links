@@ -116,6 +116,34 @@ $ git push origin <branch-name>
 
 There will now be a new branch in the repo that is your origin. The branch will not be affecting anything else. If you never did anything else with it, it would just exist there.
 
+### Adding an Upstream Remote and Syncing a Fork
+
+<!--
+If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
+
+You can name the additional remote something else, but upstream is the common convention.
+-->
+
+Add upstream remote repository that will be synced with the fork
+
+```bash
+$ git remote add upstream https://github.com/upstream-username/original-repository.git
+```
+
+Upstream example (syncing a fork)
+
+```bash
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+```
+
+Push the changes to your corresponding branch in the forked repository in GitHub
+
+```bash
+$ git push origin master
+```
+
 ## Tidy Up
 
 When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
