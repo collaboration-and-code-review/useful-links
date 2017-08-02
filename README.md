@@ -116,7 +116,7 @@ $ git push origin <branch-name>
 
 There will now be a new branch in the repo that is your origin. The branch will not be affecting anything else. If you never did anything else with it, it would just exist there.
 
-### Tidy Up
+## Tidy Up
 
 When the pull request is accepted, delete the branch. It's good practice to delete merged or stale branches.  
 
