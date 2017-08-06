@@ -63,6 +63,36 @@ Advanced Collaborative Development Workflow Examples
 
 * [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
 
+
+## Bash Commands
+
+Earlier, I said that the ability to navigate via terminal would be helpful (example: know how to change directory). Here are a few very helpful commands.
+
+Go to the home directory
+
+```bash
+$ cd
+```
+
+Change directory
+
+```bash
+$ cd <folder-name>
+```
+
+List the folders and files in a directory
+
+```bash
+$ ls
+```
+
+Move back a directory
+
+```bash
+$ cd ..
+```
+
+
 ## Commands
 
 Clone (or download) the repo you have write permission to using the repo URL (this repo will be your origin)
@@ -116,7 +146,23 @@ $ git push origin <branch-name>
 
 There will now be a new branch in the repo that is your origin. The branch will not be affecting anything else. If you never did anything else with it, it would just exist there.
 
-### Adding an Upstream Remote and Syncing a Fork
+
+## Alternative Branch Commands
+
+If not working from within the branch you are branching off of, need to specify which branch branching off of (remember, you are branching off the branch you intend your change to be merged into)
+
+```bash
+$ git checkout -b <branch-name> <branch-branching-off-of>
+```
+
+If the branch already exists, just switch to a branch
+
+```bash
+$ git checkout <branch-name>
+```
+
+
+## Adding an Upstream Remote and Syncing a Fork
 
 <!--
 If you are working from the "Fork and Pull" Model, you are fetching from the upstream.
