@@ -1,8 +1,7 @@
 # Useful Resources
 
-GitHub and Bitbucket
+GitHub
 * [GitHub](https://github.com)
-* [Bitbucket](https://bitbucket.org)
 
 Getting Set Up
 * [Set Up Git](https://help.github.com/articles/set-up-git)
@@ -35,14 +34,6 @@ GitHub Learning Resources
 
 GitHub Open Source Guides
 * [Open Source Guides](https://opensource.guide)
-
-Writing and Formatting
-* [Getting Started with Writing and Formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github)
-* [Working with Advanced Formatting](https://help.github.com/articles/working-with-advanced-formatting)
-
-Setting Up and Maintaining Teams
-* [Setting Up Teams](https://help.github.com/articles/setting-up-teams)
-* [Maintaining Teams](https://help.github.com/articles/maintaining-teams)
 
 Collaborative Development Models and Permission Levels
 * [About Collaborative Development Models](https://help.github.com/articles/about-collaborative-development-models)
