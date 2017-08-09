@@ -89,3 +89,46 @@ Move back a directory
 ```bash
 $ cd ..
 ```
+
+## Local Development
+
+```bash
+$ git clone <repo-url>
+$ cd <repo-name>
+$ git branch
+$ git checkout -b <branch-name>
+$ git add .
+$ git commit -m "Your note"
+$ git push origin <branch-name>
+```
+
+## Review Shared Repo Pull Request
+
+```bash
+$ git fetch origin
+$ git checkout -b <local-branch-name> origin/<branch-name>
+$ git merge master
+```
+
+```bash
+$ git push origin <branch-name> 
+```
+
+## Review Forked Repo Pull Request
+
+```bash
+$ git checkout -b <local-branch-name> master
+$ git pull https://github.com/<user-name>/<repo-name> <branch-name>
+```
+
+```bash
+$ git push https://github.com/<user-name>/<repo-name> <branch-name>
+```
+
+## Merge Pull Request Locally and Push to Master Branch
+
+```bash
+$ git checkout master
+$ git merge --no-ff <local-branch-name>
+$ git push origin master
+```
