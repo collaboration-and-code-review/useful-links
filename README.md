@@ -34,6 +34,7 @@ GitHub Learning Resources
 
 GitHub Open Source Guides
 * [Open Source Guides](https://opensource.guide)
+* [A Checklist Before You Contribute](https://opensource.guide/how-to-contribute/#a-checklist-before-you-contribute)
 
 Collaborative Development Models and Permission Levels
 * [About Collaborative Development Models](https://help.github.com/articles/about-collaborative-development-models)
