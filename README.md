@@ -40,11 +40,6 @@ Collaborative Development Models and Permission Levels
 * [Types of Collaborative Development Models](https://help.github.com/enterprise/2.7/user/articles/types-of-collaborative-development-models)
 * [Permission Levels for an Organization](https://help.github.com/articles/permission-levels-for-an-organization)
 * [Repository Permission Levels for an Organization](https://help.github.com/articles/repository-permission-levels-for-an-organization)
-* [Permission Levels for a User Account Repository](https://help.github.com/articles/permission-levels-for-a-user-account-repository)
-
-Pull Request Branches Created from a Fork
-* [Allowing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork)
-* [Committing Changes to a Pull Request Branch Created from a Fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork)
 
 Documentation
 * [DjangoCon US Website README.md](https://github.com/djangocon/2017.djangocon.us/blob/master/README.md)
@@ -52,8 +47,8 @@ Documentation
 * [DjangoCon US Website CODE_OF_CONDUCT.md](https://github.com/djangocon/2017.djangocon.us/blob/master/CODE_OF_CONDUCT.md)
 * [DjangoCon US Website CONTRIBUTING.md](https://github.com/djangocon/2017.djangocon.us/blob/master/CONTRIBUTING.md)
 
+Recovering a Deleted Branch
 * [Can I Recover Branch After its Deletion in Git?](https://stackoverflow.com/questions/3640764/can-i-recover-branch-after-its-deletion-in-git)
-
 
 ## Bash Commands
 
