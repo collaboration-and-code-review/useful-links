@@ -93,7 +93,7 @@ $ git push origin <branch-name>
 
 ```bash
 $ git fetch origin
-$ git checkout -b <local-branch-name> origin/<branch-name>
+$ git checkout -b <branch-name> origin/<branch-name>
 $ git merge master
 ```
 
@@ -104,7 +104,7 @@ $ git push origin <branch-name>
 ## Review Forked Repo Pull Request
 
 ```bash
-$ git checkout -b <local-branch-name> master
+$ git checkout -b <branch-name> master
 $ git pull https://github.com/<user-name>/<repo-name> <branch-name>
 ```
 
@@ -116,6 +116,6 @@ $ git push https://github.com/<user-name>/<repo-name> <branch-name>
 
 ```bash
 $ git checkout master
-$ git merge --no-ff <local-branch-name>
+$ git merge --no-ff <branch-name>
 $ git push origin master
 ```
